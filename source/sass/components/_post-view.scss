@@ -8,6 +8,15 @@
   @extend .markdown;
 }
 
+// .c-post-view__content img[src$="#left"] { max-width:50vw; float: left; } 
+// .c-post-view__content img[src$="#right"] { max-width:50vw; float: right; } 
+// .c-post-view__content img[src$="#full"] { max-width:none;width:100vw }
+
+img[src$="#left"] { max-width:30%; float: left; } 
+img[src$="#right"] { max-width:30%; float: right; } 
+img[src$="#full"] { max-width:none;width:100vw }
+
+
 // Footer
 .c-post-view__footer {
   text-align: center;

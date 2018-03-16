@@ -1,9 +1,9 @@
 {
-  "name": "Willow",
-  "version": "4.1.0",
+  "name": "WillowNeil",
+  "version": "1.0.0",
   "main": "Gruntfile.js",
   "author": {
-    "name": "Raivis Vitols",
+    "name": "Raivis Vitols, modified by Neil Smith",
     "url": "https://raivis.com"
   },
   "engines": {
