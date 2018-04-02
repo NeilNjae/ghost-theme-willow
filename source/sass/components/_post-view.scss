@@ -42,7 +42,10 @@ img[src$="#full"] { max-width:none;width:100vw }
 }
 
 .c-page-title__heading + .c-post-view-meta {
-  margin-top: 10px;
+  // margin-top: 10px;
+  padding: 10px 100px 35px 100px;
+  margin-top: -200;
+  background: c-white;
 }
 
 /*

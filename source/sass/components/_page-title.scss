@@ -5,11 +5,28 @@
 */
 .c-page-title {
   text-align: center;
+  // margin: 0 auto;
+  margin-top: -150px;
   margin-bottom: 40px;
-  padding: 10px 0 35px 0;
+  margin-left: 100px;
+  margin-right: 100px;
+  // padding: 10px 100px 35px 100px;
+  padding: 70px 100px 35px;
   border-bottom: 1px solid $c-gray;
+  background: $c-white;
+  // min-height: 230px;
+  // border-radius: 30px 30px 0 0;
 }
 
 .c-page-title__heading__tag {
   text-transform: lowercase;
+}
+
+.c-post-full-image {
+    width: 100%;
+    height: 300px;
+    margin: 0px auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
