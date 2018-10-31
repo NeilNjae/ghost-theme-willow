@@ -1,9 +1,10 @@
 {
-  "name": "WillowNeil",
-  "version": "1.0.0",
+  "name": "willowneil",
+  "version": "2.0.0",
   "main": "Gruntfile.js",
   "author": {
     "name": "Raivis Vitols, modified by Neil Smith",
+    "email": "noreply@njae.me.uk",
     "url": "https://raivis.com"
   },
   "engines": {
@@ -17,5 +18,9 @@
     "grunt-sass": "~1.1.0",
     "grunt-contrib-watch": "~1.0.0",
     "grunt-contrib-uglify": "~1.0.1"
-  }
+  },
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  },
+  "keywords": ["ghost-theme"]
 }
