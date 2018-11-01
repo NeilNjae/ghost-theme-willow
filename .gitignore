@@ -2,3 +2,6 @@
 # Exclude node_modules/ folder from theme files
 ################################################################################
 node_modules/
+
+# Sublime workspace files
+*.sublime-workspace
