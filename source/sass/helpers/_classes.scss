@@ -19,7 +19,8 @@
 
   h1, h2, h3, p, ul,
   blockquote, pre, .gist {
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
+    margin: 0.8rem 0;
     word-wrap: break-word;
 
     &:last-child {

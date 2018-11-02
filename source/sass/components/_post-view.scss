@@ -12,9 +12,9 @@
 // .c-post-view__content img[src$="#right"] { max-width:50vw; float: right; } 
 // .c-post-view__content img[src$="#full"] { max-width:none;width:100vw }
 
-img[src$="#left"] { max-width:30%; float: left; } 
-img[src$="#right"] { max-width:30%; float: right; } 
-img[src$="#full"] { max-width:none; width:100vw }
+img[src$="#left"]  { max-width:30%; float: left;  margin: 1rem; } 
+img[src$="#right"] { max-width:30%; float: right; margin: 1rem; } 
+img[src$="#full"]  { max-width:none; width:100vw; margin: 1rem; }
 
 .kg-width-wide img {
   max-width: 85vw;
